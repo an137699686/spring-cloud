@@ -4,10 +4,14 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/an137699686/spring-cloud/spring-server
-          basedir: config-server/target
-          default-label: main
+          uri: file://D:/learn/env
+#       git:
+#          uri: https://github.com/an137699686/spring-cloud
+#          basedir: config-server/target
+#          default-label: main
   application:
     name: config-server
 server:
   port: 8888
+  tomcat:
+    uri-encoding: UTF-8

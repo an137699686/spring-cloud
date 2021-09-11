@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+    config:
+      import: http://localhost:8888/foo-development.yml
+    application:
+      name: foo
+    profiles:
+      active: dev,mysql
+
+

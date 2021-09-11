@@ -17,7 +17,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConfigClientApp
 {
     @Value("${config.name}")
-    int name;
+    String name;
 
     @RequestMapping("/")
     public String home() {

@@ -1,6 +1,0 @@
-spring.cloud.config.uri: http://localhost:8887
-server:
-  port: 8081
-spring:
-  config:
-    name: test
