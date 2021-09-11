@@ -1,0 +1,13 @@
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/an137699686/spring-cloud
+          basedir:
+          default-label: main
+  application:
+    name: config-server
+server:
+  port: 8888
