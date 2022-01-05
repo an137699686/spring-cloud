@@ -12,6 +12,7 @@
         <module name="eureka-client-demo" />
         <module name="spring-cloud" />
         <module name="config-client" />
+        <module name="ribbon-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="config-server" target="1.8" />
       <module name="eureka-client-demo" target="1.8" />
       <module name="eureka-server-demo" target="1.8" />
+      <module name="ribbon-demo" target="1.8" />
       <module name="spring-cloud" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
     </bytecodeTargetLevel>
