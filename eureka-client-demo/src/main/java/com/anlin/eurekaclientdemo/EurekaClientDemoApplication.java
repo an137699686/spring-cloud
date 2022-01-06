@@ -22,6 +22,11 @@ public class EurekaClientDemoApplication {
 
     @RequestMapping("/hi")
     public String home(@RequestParam(value = "name", defaultValue = "forezp") String name) {
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return "hi " + name + " ,i am from port:" + port;
     }
 

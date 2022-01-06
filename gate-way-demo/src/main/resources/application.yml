@@ -1,3 +1,5 @@
+#hystrix配置
+hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5
 # 服务名称
 spring:
   application:
@@ -5,20 +7,34 @@ spring:
   # 开启 Gateway 服务注册中心服务发现
   cloud:
     gateway:
+
       routes:
         - id: hi
           uri:  lb://SERVICE-DEMO
           predicates:
             - Path=/hi
+          filters:
+            - RewritePath=/employee/(?<path>.*), /$\{path}
+            - name: Hystrix
+              args:
+                name: fallbackcmd
+                fallbackUri: forward:/fallback
+
       discovery:
         locator:
           enabled: true
+
+
+
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8700/eureka
     instance:
       prefer-ip-address: true
+
+
+
 ribbon:
   eureka:
     enabled: false #必须要关闭eureka的服务注册与发现
