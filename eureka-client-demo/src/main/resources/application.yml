@@ -1,5 +1,5 @@
 server:
-  port: 8701
+  port: 8702
 
 spring:
   application:
@@ -11,3 +11,4 @@ eureka:
       defaultZone: http://localhost:8700/eureka
     instance:
       hostname: localhost
+      instance-id: ${spring.application.name}:${random.int}

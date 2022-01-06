@@ -1,5 +1,5 @@
 server:
-  port: 8702 # 服务消费方
+  port: 0 # 服务消费方
 
 # 指定当前eureka客户端的注册地址,
 eureka:
@@ -8,7 +8,6 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:8700/eureka
   instance:
     hostname: localhost
-
 #当前服务名称
 spring:
   application:

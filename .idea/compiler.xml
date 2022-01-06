@@ -10,6 +10,7 @@
         <module name="config-server" />
         <module name="spring-cloud-demo" />
         <module name="eureka-client-demo" />
+        <module name="gate-way-demo" />
         <module name="spring-cloud" />
         <module name="config-client" />
         <module name="ribbon-demo" />
@@ -20,6 +21,7 @@
       <module name="config-server" target="1.8" />
       <module name="eureka-client-demo" target="1.8" />
       <module name="eureka-server-demo" target="1.8" />
+      <module name="gate-way-demo" target="1.8" />
       <module name="ribbon-demo" target="1.8" />
       <module name="spring-cloud" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
@@ -31,6 +33,7 @@
       <module name="config-server" options="-parameters" />
       <module name="eureka-client-demo" options="-parameters" />
       <module name="eureka-server-demo" options="-parameters" />
+      <module name="gate-way-demo" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
       <module name="spring-cloud-demo" options="-parameters" />
     </option>
