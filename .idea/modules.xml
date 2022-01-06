@@ -3,8 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" filepath="$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" filepath="$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" filepath="$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" filepath="$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" filepath="$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
