@@ -2,17 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2666fa81-947b-4143-b964-919fed07b1d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gate-way-demo/src/main/java/com/anlin/gatewaydemo/RulesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_6_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/nacos-client-common.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/Beans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/FeignServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientCommonApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-client-common/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-server-demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-demo/src/main/java/com/anlin/eurekaclientdemo/EurekaClientDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-demo/src/main/java/com/anlin/eurekaclientdemo/EurekaClientDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-client-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-client-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-way-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gate-way-demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-way-demo/src/main/java/com/anlin/gatewaydemo/DefaultHystrixController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-way-demo/src/main/java/com/anlin/gatewaydemo/Result.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gate-way-demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gate-way-demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/config-server/target/" />
@@ -25,6 +28,8 @@
     <ignored path="eureka-server-demo/.mvn/" />
     <ignored path="$PROJECT_DIR$/ribbon-demo/target/" />
     <ignored path="$PROJECT_DIR$/gate-way-demo/target/" />
+    <ignored path="$PROJECT_DIR$/nacos-server-demo/target/" />
+    <ignored path="$PROJECT_DIR$/nacos-client-common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,46 +42,104 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-server-demo/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/nacos-server-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+            <state relative-caret-position="108">
+              <caret line="45" column="24" selection-end-line="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-client-common/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="141">
+              <caret line="46" selection-start-line="46" selection-end-line="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/eureka-client-demo/src/main/resources/application.yml">
+        <entry file="jar://D:/IDE/repository/org/springframework/cloud/spring-cloud-openfeign-core/3.1.0/spring-cloud-openfeign-core-3.1.0.jar!/org/springframework/cloud/openfeign/loadbalancer/FeignBlockingLoadBalancerClient.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="120">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate-way-demo/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientCommonApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="44" />
+            <state relative-caret-position="-310">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#491#492#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate-way-demo/src/main/resources/application.yml_bak">
+        <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/FeignServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="-36">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-demo/src/main/java/com/anlin/eurekaclientdemo/EurekaClientDemoApplication.java">
+        <entry file="file://$PROJECT_DIR$/nacos-server-demo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="216">
+              <caret line="6" column="16" selection-end-line="10" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-58">
+              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientDemoApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="69">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#561#562#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/Beans.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#351#352#0" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -84,58 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gate-way-demo/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate-way-demo/src/main/java/com/anlin/gatewaydemo/RulesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-104">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#915#916#0" expanded="true" />
-                <element signature="e#985#986#0" expanded="true" />
-                <element signature="e#1094#1095#0" expanded="true" />
-                <element signature="e#1146#1147#0" expanded="true" />
-                <element signature="e#1240#1241#0" expanded="true" />
-                <element signature="e#1289#1290#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/eureka-client-demo/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="38" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gate-way-demo/src/main/java/com/anlin/gatewaydemo/SpringCloudGatewayApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#360#361#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ribbon-demo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+            <state relative-caret-position="136">
+              <caret line="17" column="61" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -145,6 +158,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -193,6 +207,17 @@
         <option value="$PROJECT_DIR$/eureka-client-demo/src/main/java/com/anlin/eurekaclientdemo/EurekaClientDemoApplication.java" />
         <option value="$PROJECT_DIR$/gate-way-demo/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/eureka-client-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos-server-demo/src/main/java/com/anlin/nacosserverdemo/NacosServerDemoApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-server-demo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos-server-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosServerDemoApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/FeignServer.kt" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/FeignServer.java" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientDemoApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientCommonApplication.java" />
+        <option value="$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/Beans.java" />
+        <option value="$PROJECT_DIR$/nacos-client-common/pom.xml" />
       </list>
     </option>
   </component>
@@ -248,77 +273,25 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-client-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka-server-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gate-way-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gate-way-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gate-way-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gate-way-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -326,19 +299,21 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gate-way-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gatewaydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacosClientDemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="gate-way-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="nacos-client-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="nacosClientDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="FeignServer.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -355,14 +330,18 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/gate-way-demo/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos-client-common/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.35287356" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.anlin.nacosClientDemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspaces\spring-cloud-demo\nacos-client-common\src\main\resources" />
       <recent name="D:\workspaces\spring-cloud-demo\gate-way-demo\src\main\resources" />
       <recent name="D:\workspaces\spring-cloud-demo\eureka-client-demo\src\main\resources" />
       <recent name="D:\workspaces\spring-cloud\eureka-client-demo\src\main\resources" />
@@ -381,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaClientDemoApplication">
+  <component name="RunManager" selected="Spring Boot.NacosClientCommonApplication">
     <configuration name="EurekaClientDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka-client-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.anlin.eurekaclientdemo.EurekaClientDemoApplication" />
@@ -412,6 +391,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NacosClientCommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-client-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.anlin.nacosClientDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anlin.nacosClientDemo.NacosClientCommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosClientDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-client-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anlin.nacosClientDemo.NacosClientDemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NacosServerDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-server-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.anlin.nacosserverdemo.NacosServerDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RibbonDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ribbon-demo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.anlin.ribbondemo.RibbonDemoApplication" />
@@ -427,7 +434,15 @@
       <item itemvalue="Spring Boot.EurekaServerDemoApplication " />
       <item itemvalue="Spring Boot.RibbonDemoApplication" />
       <item itemvalue="Spring Boot.GateWayDemoApplication" />
+      <item itemvalue="Spring Boot.NacosServerDemoApplication" />
+      <item itemvalue="Spring Boot.NacosClientDemoApplication" />
+      <item itemvalue="Spring Boot.NacosClientCommonApplication" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NacosClientCommonApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -448,16 +463,15 @@
       <workItem from="1641372570543" duration="143000" />
       <workItem from="1641390094680" duration="1721000" />
       <workItem from="1641435015644" duration="15508000" />
-      <workItem from="1641517042409" duration="4560000" />
+      <workItem from="1641517042409" duration="9677000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26617000" />
+    <option name="totallyTimeSpent" value="31734000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2774799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,7 +483,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3512748" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.57648724" />
       <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45042494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -504,8 +518,8 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.3512748" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45042494" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.57648724" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45042494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -695,17 +709,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gate-way-demo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-demo/src/main/java/com/anlin/eurekaclientdemo/EurekaClientDemoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -741,8 +748,130 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/eureka-client-demo/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
+        <state relative-caret-position="374">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-server-demo/src/main/java/com/anlin/nacosserverdemo/NacosServerDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding>
+            <element signature="e#266#267#0" expanded="true" />
+            <element signature="e#343#344#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-server-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="45" column="24" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/IDE/repository/org/springframework/boot/spring-boot-starter-webflux/2.6.2/spring-boot-starter-webflux-2.6.2.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/FeignServer.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <element signature="e#35#207#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/Beans.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#351#352#0" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/FeignServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-server-demo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" column="16" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gate-way-demo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="17" column="61" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientDemoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#561#562#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/src/main/java/com/anlin/nacosClientDemo/NacosClientCommonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#491#492#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nacos-client-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/IDE/repository/org/springframework/cloud/spring-cloud-openfeign-core/3.1.0/spring-cloud-openfeign-core-3.1.0.jar!/org/springframework/cloud/openfeign/loadbalancer/FeignBlockingLoadBalancerClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>

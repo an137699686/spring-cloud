@@ -6,10 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="nacos-client-common" />
         <module name="eureka-server-demo" />
         <module name="config-server" />
-        <module name="spring-cloud-demo" />
         <module name="eureka-client-demo" />
+        <module name="nacos-server-demo" />
         <module name="gate-way-demo" />
         <module name="spring-cloud" />
         <module name="config-client" />
@@ -22,6 +23,8 @@
       <module name="eureka-client-demo" target="1.8" />
       <module name="eureka-server-demo" target="1.8" />
       <module name="gate-way-demo" target="1.8" />
+      <module name="nacos-client-common" target="1.8" />
+      <module name="nacos-server-demo" target="1.8" />
       <module name="ribbon-demo" target="1.8" />
       <module name="spring-cloud" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
@@ -34,6 +37,8 @@
       <module name="eureka-client-demo" options="-parameters" />
       <module name="eureka-server-demo" options="-parameters" />
       <module name="gate-way-demo" options="-parameters" />
+      <module name="nacos-client-common" options="-parameters" />
+      <module name="nacos-server-demo" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />
       <module name="spring-cloud-demo" options="-parameters" />
     </option>

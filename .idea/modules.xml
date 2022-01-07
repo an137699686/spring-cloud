@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" filepath="$PROJECT_DIR$/eureka-client-demo/eureka-client-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" filepath="$PROJECT_DIR$/eureka-server-demo/eureka-server-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/gate-way-demo/gate-way-demo.iml" filepath="$PROJECT_DIR$/gate-way-demo/gate-way-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-client-common/nacos-client-common.iml" filepath="$PROJECT_DIR$/nacos-client-common/nacos-client-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nacos-server-demo/nacos-server-demo.iml" filepath="$PROJECT_DIR$/nacos-server-demo/nacos-server-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" filepath="$PROJECT_DIR$/ribbon-demo/ribbon-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-demo.iml" />
     </modules>
