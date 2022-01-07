@@ -1,51 +1,37 @@
-#hystrix配置
-hystrix.command.fallbackcmd.execution.isolation.thread.timeoutInMilliseconds: 5
-# 服务名称
 spring:
   application:
     name: spring-cloud-gateway
-  # 开启 Gateway 服务注册中心服务发现
   cloud:
+    sentinel:
+      transport:
+        dashboard: localhost:8080
+        port: 8080
+      # 鏈嶅姟鍚姩鐩存帴寤虹珛蹇冭烦杩炴帴
+      eager: true
     gateway:
-
       routes:
         - id: hi
           uri:  lb://SERVICE-DEMO
           predicates:
             - Path=/hi
-          filters:
-            - RewritePath=/employee/(?<path>.*), /$\{path}
-            - name: Hystrix
-              args:
-                name: fallbackcmd
-                fallbackUri: forward:/fallback
-
       discovery:
         locator:
           enabled: true
-
-
-
 eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8700/eureka
     instance:
       prefer-ip-address: true
-
-
-
 ribbon:
   eureka:
-    enabled: false #必须要关闭eureka的服务注册与发现
+    enabled: false
 order-service:
   ribbon:
     listOfServers: localhost:8701, localhost:8702
     NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RoundRobinRule
-# 配置Gateway日志等级，输出转发细节信息
 logging:
   level:
     org.springframework.cloud.gateway: debug
 server:
   port: 8703
-
